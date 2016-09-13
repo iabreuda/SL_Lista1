@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
 \usepackage{gensymb}
+\usepackage{pgfplots}
 
 \author{Igor Abreu da Silva}
 
@@ -88,7 +89,8 @@
 				\centering
 				\includegraphics{img/Figura3.png}
 				\caption{Sinais utilizados no Item C}	
-			\end{figure}		
+			\end{figure}	
+			Percebe-se que nos Sinais "a" e "b" a energia de x+y é igual a energia de x e y somadas, assim com, x-y é a energia de "a" e "b" subtraída, entretanto, não podemos assumir isso como verdade pois nos Sinais "c" não existe tal relação.
 			\subsubsection{Sinais (a)}
 			\[E_{x} = \int_{0}^{2} 1^{2}dx = 2 \]
 			\[E_{y} = \int_{0}^{1} 1^{2}dx + \int_{1}^{2} -1^{2}dx \Rightarrow 1 + 1 = 2 \]
@@ -97,12 +99,106 @@
 			\subsubsection{Sinais (b)}
 			\[E_{x} = \int_{0}^{2\pi} sin^{2}(x)dx \Rightarrow \int_{0}^{2\pi} \frac{1-cos(2x)}{2} \Rightarrow  \frac{1}{2}\int_{0}^{2\pi} 1dx - \frac{1}{2}\int_{0}^{2\pi} cos(2x)dx = \pi + 0 = \pi\]
 			\[E_{y} = \int_{0}^{2\pi} 1^{2}dx  = 2\pi \]
-			\[E_{x+y} = \int_{0}^{2\pi} (sin(x) +1)^{2}dx \Rightarrow \int_{0}^{2\pi} \frac{1-cos(2x)}{2} + 2sen(x) + 1\Rightarrow\]\[ \frac{1}{2}\int_{0}^{2\pi} 1dx - \frac{1}{2}\int_{0}^{2\pi} cos(2x)dx + 2\int_{0}^{2\pi} sin(x)dx + \int_{0}^{2\pi} 1dx= \pi + 0 + 0 + 2\pi = \pi\]
-			\[E_{x-y} = \int_{1}^{2} -2^{2}dx = 4 \]							
+			\[E_{x+y} = \int_{0}^{2\pi} (sin(x) +1)^{2}dx \Rightarrow \int_{0}^{2\pi} \frac{1-cos(2x)}{2} + 2sen(x) + 1\Rightarrow\]\[ \frac{1}{2}\int_{0}^{2\pi} 1dx - \frac{1}{2}\int_{0}^{2\pi} cos(2x)dx + 2\int_{0}^{2\pi} sin(x)dx + \int_{0}^{2\pi} 1dx= \pi + 0 + 0 + 2\pi = 3\pi\]
+			\[E_{x-y} = \int_{0}^{2\pi} (sin(x) -1)^{2}dx \Rightarrow \int_{0}^{2\pi} \frac{1-cos(2x)}{2} - 2sen(x) + 1\Rightarrow\]\[ \frac{1}{2}\int_{0}^{2\pi} 1dx - \frac{1}{2}\int_{0}^{2\pi} cos(2x)dx - 2\int_{0}^{2\pi} sin(x)dx + \int_{0}^{2\pi} 1dx= \pi + 0 + 0 + 2\pi = 3\pi\]		
+			\subsubsection{Sinais (c)}
+			\[E_{x} = \int_{0}^{\pi} sin^{2}(x)dx \Rightarrow \int_{0}^{\pi} \frac{1-cos(2x)}{2} = \frac{\pi}{2} + 0 = \frac{\pi}{2} \]
+			\[E_{y} = \int_{0}^{\pi} 1^{2}dx = \pi\]
+			\[E_{x+y} = \int_{0}^{\pi} (sin + 1)^{2}dx \Rightarrow \int_{0}^{\pi} \frac{1-cos(2x)dx}{2} + \int_{0}^{\pi}2sin(x) + \int_{0}^{\pi}dx = \frac{\pi}{2} + 4 + \pi = \frac{3\pi}{2} + 4\]
+			\[E_{x-y} = \int_{0}^{\pi} (sin - 1)^{2}dx \Rightarrow \int_{0}^{\pi} \frac{1-cos(2x)dx}{2} + \int_{0}^{\pi}-2sin(x) + \int_{0}^{\pi}dx = \frac{\pi}{2} - 4 + \pi = \frac{3\pi}{2} - 4\]			
+			\newpage				
 		\subsection{Item d}	
+			\begin{figure}[!ht]
+				\centering
+				\includegraphics{img/Figura4.png}
+				\caption{Sinais utilizados no Item D}	
+			\end{figure}
+			\[P(x) = \frac{1}{4} \int_{-2}^{2} (x^{3})^{2}dx = \frac{64}{7}\]
+			Percebe-se, que a inversão do sinal não altera a potência, entretanto a multiplicação por um escalar C, altera a potência em $C^{2}$, um comportamento igual ao já provado no calculo de energia.
+			\subsubsection{Sinais (a)}
+			\[P(-x) = \frac{1}{4} \int_{-2}^{2} (-x^{3})^{2}dx = \frac{64}{7}\]			
+			\subsubsection{Sinais (b)}
+			\[P(2x) = \frac{1}{4} \int_{-2}^{2} (2x^{3})^{2}dx = \frac{256}{7}\]	
+			\subsubsection{Sinais (c)}
+			\[P(Cx) = \frac{1}{4} \int_{-2}^{2} (Cx^{3})^{2}dx = \frac{64C^{2}}{7}\]	
+			\newpage			
 		\subsection{Item e}	
+			\subsubsection{Sinais (a)}
+				\begin{tikzpicture}
+				\begin{axis}[%
+				,xlabel=$t$
+				,ylabel=$u(t)$
+				,axis x line = bottom,axis y line = left
+				,ytick={1,2}
+				,ymax=2.5 % or enlarge y limits=upper
+				]
+				\addplot+[const plot, no marks, thick] coordinates {(0,0) (1,0) (2,0) (3,0) (4,0) (5,1) (6,1) (7,1)(7,0) (8,0)} node[above,pos=.57,black]{};
+				\end{axis}
+				\end{tikzpicture}		
+			\subsubsection{Sinais (b)}
+				\begin{tikzpicture}
+				\begin{axis}[%
+				,xlabel=$t$
+				,ylabel=$u(t)$
+				,axis x line = bottom,axis y line = left
+				,ytick={1,2}
+				,ymax=2.5 % or enlarge y limits=upper
+				]
+				\addplot+[const plot, no marks, thick] coordinates {(0,0) (1,0) (2,0) (3,0) (4,0) (5,1) (6,1) (7,2)(8,2) } node[above,pos=.57,black]{};
+				\end{axis}
+				\end{tikzpicture}					
+			\subsubsection{Sinais (c)}
+				\begin{tikzpicture}
+				\begin{axis}[%
+				,xlabel=$t$
+				,ylabel=$u(t)$
+				,axis x line = bottom,axis y line = left
+				,ytick={1,2,3,4}
+				,ymax=4 % or enlarge y limits=upper
+				]
+				\addplot+[const plot, no marks, thick] coordinates {(0,0) (1,0) (1,1)} {};
+				\addplot[domain=1:2,blue]{x*x};
+				\addplot+[const plot, no marks, thick,blue] coordinates {(2,4) (2,0) (3,0)} {};
+				\end{axis}
+				\end{tikzpicture}				
+			\subsubsection{Sinais (d)}
+				\begin{tikzpicture}
+				\begin{axis}[%
+				,xlabel=$t$
+				,ylabel=$u(t)$
+				,axis x line = bottom,axis y line = left
+				,ytick={-1,-2,0,1,2}
+				,ymax=2 % or enlarge y limits=upper
+				,ymin=-2
+				]
+				\addplot+[const plot, no marks, thick] coordinates {(0,0) (1,0) (2,0) (2,-2)} {};
+				\addplot[domain=2:4,blue]{(x-4)};
+				\addplot+[const plot, no marks, thick,blue] coordinates {(4,0) (5,0)} {};
+				\end{axis}
+				\end{tikzpicture}			
 		\subsection{Item f}	
+			\subsubsection{Sinais (a)}
+			Impulso unitário em sin(0) = 0
+			\subsubsection{Sinais (b)}
+			$\frac{2}{9}\delta(\omega)$
+			\subsubsection{Sinais (c)}
+			$1(cos(-60)) = \frac{1}{2}\delta(t)$
+			\subsubsection{Sinais (d)}
+			$\frac{sin(\frac{-\pi}{2})}{(1)^{2}+4} = \frac{-1}{5}\delta(1-t)$
+			\subsubsection{Sinais (e)}
+			Substituindo-se $\omega + 3$ em $\omega$, teremos: $\frac{1}{-3j + 2}\delta(\omega+3)$			
+			\subsubsection{Sinais (f)}	
+			Usando L'hopital em $\frac{sin(k\omega)}{\omega}$, temos: $kcos(k\omega)$ que com $\omega = 0$ temos: $k\delta(\omega)$		
 		\subsection{Item g}	
+			\subsubsection{Sinais (a)}
+			Como o impulso é localizado em $\tau = t$, temos que essa integral é igual a x(t)
+			\subsubsection{Sinais (b)}
+			\subsubsection{Sinais (c)}
+			\subsubsection{Sinais (d)}
+			\subsubsection{Sinais (e)}
+			\subsubsection{Sinais (f)}
+			\subsubsection{Sinais (g)}
+			\subsubsection{Sinais (h)}
 		\subsection{Item h}	
 		\subsection{Item i}	
 		\subsection{Item j}	
