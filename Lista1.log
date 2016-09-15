@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.9.13)  15 SEP 2016 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.9.13)  15 SEP 2016 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1504,39 +1504,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 320.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 321.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 322.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 323.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 324.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 325.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 326.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 327.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 328.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 329.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 330.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 331.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 332.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 333.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 335.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 336.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 338.
+ [15]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
@@ -1620,35 +1595,65 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 378.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 378.
- [15]
+(babel)             in language  on input line 379.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 380.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 381.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 382.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 383.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 384.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 385.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 387.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 388.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 389.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 390.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 391.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 392.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
  [16]
-Overfull \vbox (898.81677pt too high) has occurred while \output is active []
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+ [17]
+Overfull \vbox (806.31677pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 393.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 393.
 
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+[18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
  (/home/igor/Desktop/UFRJ/Class/Linear Systems/Listas/SL_Lista1/Lista1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 Package rerunfilecheck Info: File `Lista1.out' has not changed.
 (rerunfilecheck)             Checksum: 1D87025D873C6AA0EAD577BBB243C237;9627.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
  ) 
 Here is how much of TeX's memory you used:
- 26876 strings out of 494925
- 649639 string characters out of 6180251
- 872222 words of memory out of 5000000
- 29578 multiletter control sequences out of 15000+600000
+ 26883 strings out of 494925
+ 649754 string characters out of 6180251
+ 873222 words of memory out of 5000000
+ 29584 multiletter control sequences out of 15000+600000
  8867 words of font info for 32 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  62i,9n,103p,702b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1664,10 +1669,10 @@ sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on "/home/igor/Desktop/UFRJ/Class/Linear Systems/Listas/SL_Lista
-1/Lista1.pdf" (22 pages, 240712 bytes).
+1/Lista1.pdf" (23 pages, 242094 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 862 compressed objects within 9 object streams
- 166 named destinations out of 1000 (max. 500000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 167 named destinations out of 1000 (max. 500000)
  1166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

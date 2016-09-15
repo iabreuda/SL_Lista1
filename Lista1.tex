@@ -307,19 +307,34 @@
     \section{Quest\~{a}o 2 - Conhecimentos Básicos}
         \subsection{Item a}
             \subsubsection{Sinais (a)}
-            n $<$ -5 e n $>$ 1
+            n $<$1 e n $>$7
             \subsubsection{Sinais (b)}
-            n $<$ 2 e n $>$ 8
+            n $<$-6 e n $>$0
             \subsubsection{Sinais (c)}
-            n $>$ 2 e n $<$ -4
+            n $>$2 e n $<$-4
             \subsubsection{Sinais (d)}
-            n $>$ 4 e n $<$ 2
+            n $>$4 e n $<$-2
             \subsubsection{Sinais (e)}
             n $>$ 0 e n $<$ -6
         \subsection{Item b}
             \subsubsection{Sinais (a)}
+            N\~ao \'e periodico pois como \'e multiplicado por um degrau \'e 0 para todo o valor menor que 0.
             \subsubsection{Sinais (b)}
+            Esse sinal \'e 1 para todo o dominio, logo \'e periodico com periodo = 1.
             \subsubsection{Sinais (c)}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$x$
+                ,ylabel=$y(x)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,-2,0,1,2}
+                ,ymax=2 % or enlarge y limits=upper
+                ,ymin=-2
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(0,1) (0,0)} {};
+                \addplot+[const plot, no marks, thick] coordinates {(1,-1) (1,0)} {};
+                \end{axis}
+                \end{tikzpicture}
         \subsection{Item c}
             \subsubsection{Sinais (a)}
             \subsubsection{Sinais (b)}
