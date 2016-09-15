@@ -321,48 +321,118 @@
             N\~ao \'e periodico pois como \'e multiplicado por um degrau \'e 0 para todo o valor menor que 0.
             \subsubsection{Sinais (b)}
             Esse sinal \'e 1 para todo o dominio, logo \'e periodico com periodo = 1.
+        \subsection{Item c}
+            \subsubsection{Sinais (a)}
+            $2A^{0t}cos(0t + \pi)$
+            \subsubsection{Sinais (b)}
+            $\sqrt{2}[cos(\frac{\pi}{4})+jsen(\frac{\pi}{4})]cos(3t + 2\pi)$ removendo a parte imaginaria composta por seno e fazendo as devidas substituições, temos: $\sqrt{2}\frac{1}{\sqrt{2}}e^{0}cos(3t + 2\pi)$ como cosseno é periódico em $2\pi$, o resultado  é: $e^{0}cos(3t)$
+            \subsubsection{Sinais (c)}
+            $e^{-1t}cos(3t+\frac{\pi}{2})$
+            \subsubsection{Sinais (d)}
+            Por essa exponencial ter um "j" multiplicando, sabe-se que é um seno, sabe-se também que $e^{(a+jw)t} = e^{at}cos(wt + \phi)$, logo $e^{-2t}cos(100t + \frac{\pi}{2})$
+        \subsection{Item d}
+	        sabe-se que $T = \frac{2\pi}{\omega}$
+            \subsubsection{Sinais (a)}
+            $\omega = 10$, logo é periódico e o período fundamental é: $T = \frac{2\pi}{10} = \frac{\pi}{5}$
+            \subsubsection{Sinais (b)}
+            $\omega = 1$, seria periódico e o período fundamental é: $T = \frac{2\pi}{1} = 2\pi$, entretanto a multiplicação de $\alpha$ por -1 faz com que se transforme em uma exponencial decrescente.
+            \subsubsection{Sinais (c)}
+            $\omega = 7\pi n$, logo é periódico e o período fundamental é: $T = \frac{2\pi}{7\pi n} = \frac{2}{7 n}$
+        \subsection{Item e}
+	        O período da primeira parte da função é $T = \frac{2\pi}{10} = \frac{\pi}{5}$, na segunda função temos: $T = \frac{2\pi}{4} = \frac{\pi}{2}$. Logo a soma das funções será periódica com período igual a MMC dos periodos que é $\pi$
+        \subsection{Item f}
+        \[t < -2 = 0\]
+        \[t > 2 = 0\]
+        \[ - 2 <= t <= -2, = 1\]
+        $E = \int_{-2}^{2}dt = 4$
+        \subsection{Item g}          
+            \subsubsection{Sinais (a)}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-2,0) (-1,0) (-1,-1)} {};
+                \addplot[domain=-1:0,blue]{x};
+                \addplot+[const plot, no marks, thick,blue] coordinates {(0,0) (0,1) (1,1) (1,2) (2,2) (2,1)} {};
+                \addplot[domain=2:3,blue]{-x+3};
+                \end{axis}
+                \end{tikzpicture}            
+            \subsubsection{Sinais (b)}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-1,0)} {};
+                \addplot[domain=-0:1,blue]{x};
+                \addplot+[const plot, no marks, thick,blue] coordinates { (1,1) (1,2) (2,2) (2,1) (3,1) (3,0)} {};
+                \addplot[domain=3:4,blue]{-x+3};
+                \addplot+[const plot, no marks, thick,blue] coordinates {(4,-1) (4,0) (5,0)};
+                \end{axis}
+                \end{tikzpicture}             
             \subsubsection{Sinais (c)}
                 \begin{tikzpicture}
                 \begin{axis}[%
-                ,xlabel=$x$
-                ,ylabel=$y(x)$
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
                 ,axis x line = bottom,axis y line = left
-                ,ytick={-1,-2,0,1,2}
-                ,ymax=2 % or enlarge y limits=upper
-                ,ymin=-2
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
                 ]
-                \addplot+[const plot, no marks, thick] coordinates {(0,1) (0,0)} {};
-                \addplot+[const plot, no marks, thick] coordinates {(1,-1) (1,0)} {};
+                \addplot+[const plot, no marks, thick] coordinates {(-2,0) (-1.5,0) (-1.5,-1)} {};
+                \addplot[domain=-1.5:-1,blue]{2*x+2};
+                \addplot+[const plot, no marks, thick,blue] coordinates {(-1,0) (-1,1) (-0.5,1) (-0.5,2) (0,2) (0,1)} {};
+                \addplot[domain=0:0.5,blue]{-2*x+1};
                 \end{axis}
-                \end{tikzpicture}
-        \subsection{Item c}
-            \subsubsection{Sinais (a)}
-            \subsubsection{Sinais (b)}
-            \subsubsection{Sinais (c)}
-            \subsubsection{Sinais (d)}
-        \subsection{Item d}
-            \subsubsection{Sinais (a)}
-            \subsubsection{Sinais (b)}
-            \subsubsection{Sinais (c)}
-            \subsubsection{Sinais (d)}
+                \end{tikzpicture}                      
+            \subsubsection{Sinais (d)}   
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(3,0)} {};
+                \addplot[domain=4:6,blue]{x/2 -2};
+                \addplot+[const plot, no marks, thick,blue] coordinates { (6,1) (6,2) (8,2) (8,1) (10,1) (10,0)} {};
+                \addplot[domain=10:12,blue]{-x/2 +5};
+                \addplot+[const plot, no marks, thick,blue] coordinates {(12,-1) (12,0) (14,0)};
+                \end{axis}
+                \end{tikzpicture}                   
             \subsubsection{Sinais (e)}
-        \subsection{Item e}
-        \subsection{Item f}
-        \subsection{Item g}
-            \subsubsection{Sinais (a)}
-            \subsubsection{Sinais (b)}
-            \subsubsection{Sinais (c)}
-            \subsubsection{Sinais (d)}
-            \subsubsection{Sinais (e)}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick,blue] coordinates { (0,0) (0,3) (1,3) (1,0)} {};
+                \end{axis}
+                \end{tikzpicture}   
             \subsubsection{Sinais (f)}
-        \subsection{Item h}
-            \subsubsection{Sinais (a)}
-            \subsubsection{Sinais (b)}
-            \subsubsection{Sinais (c)}
-            \subsubsection{Sinais (d)}
-            \subsubsection{Sinais (e)}
-            \subsubsection{Sinais (f)}
-            \subsubsection{Sinais (g)}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-3/2,1) (-3/2,0)} {};
+                \addplot+[const plot, no marks, thick] coordinates {(3/2,1) (3/2,0)} {};
+                \end{axis}
+                \end{tikzpicture}              
     \section{Quest\~{a}o 3 - Conhecimentos Básicos}
         \subsection{Item a}
         \subsection{Item b}
