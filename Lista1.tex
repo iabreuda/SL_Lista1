@@ -208,31 +208,80 @@
             O impulso ocorre quando t = 3, logo o resultado sera $e^{3-1}cos(-\pi) = -e^{2}$.
         \subsection{Item h}
             \subsubsection{Sinais (a)}
+            $cos(\omega t) = \frac{e^{\alpha t + j\omega t} + e^{\alpha t - j\omega t}}{2}$, $\alpha = 0$ pois e função é uma senoide e $\omega = 3$, sabendo-se que $s = \alpha + j\omega$ temos: $s_{1} = j3$ e $ s_{2} = -j3 $
             \subsubsection{Sinais (b)}
+            Nesse caso, temos $\alpha = -3$ e $\omega = 3$, logo $s_{1} = -3 + j3$ e $s_{2} = -3 - j3$
             \subsubsection{Sinais (c)}
+            Nesse caso, temos $\alpha = 2$ e $\omega = 3$, logo $s_{1} = 2 + j3$ e $s_{2} = 2 - j3$
             \subsubsection{Sinais (d)}
+            Nesse caso, temos $\alpha = -2$ e $\omega = 0$, logo $s = -2$
             \subsubsection{Sinais (e)}
+            Nesse caso, temos $\alpha = 2$ e $\omega = 0$, logo $s = 2$
             \subsubsection{Sinais (f)}
+            Nesse caso, temos $\alpha = 0$ e $\omega = 0$, logo $ke^{0}$ tendo k = 5
         \subsection{Item i}
             \subsubsection{Sinais (a)}
+            Pode se dizer que $x(t)_{par} = \frac{x(t)}{2} + \frac{x(-t)}{2}$ e $x(t)_{impar} = \frac{x(t)}{2} + \frac{-x(-t)}{2}$, logo $\int_{-\infty}^{\infty} [\frac{x(t)}{2} + \frac{x(-t)}{2}][\frac{x(t)}{2} + \frac{-x(-t)}{2}] = \int_{-\infty}^{\infty} (\frac{x(t)}{2})^{2} - (\frac{x(-t)}{2})^{2} $ como o modulo de x(t) é igual ao modulo de x(-t) essa integral resultara em 0.
             \subsubsection{Sinais (b)}
+            Pode se dizer que $x(t)_{par} = \frac{x(t)}{2} + \frac{x(-t)}{2}$, logo $\int_{-\infty}^{\infty} \frac{x(t)}{2} + \frac{x(-t)}{2}$ como x(t) = x(-t) $\int_{-\infty}^{\infty} x(t)$.
         \subsection{Item j}
             \subsubsection{Sinais (a)}
+            \[x_{1}(t)  \Rightarrow ay_{1}^{'}(t) + 2ay_{1}(t) = ax_{1}^{2}(t)\]
+            \[x_{2}(t)  \Rightarrow by_{2}^{'}(t) + 2by_{2}(t) = bx_{2}^{2}(t)\]
+            \[x_{3}(t)  \Rightarrow y_{3}^{'}(t) + 2y_{3}(t) = x_{3}^{2}(t) \Rightarrow (ax_{1}(t) + bx_{2}(t))^{2} \Rightarrow a^{2}x_{1}^{2}(t) + 2abx_{1}(t)x_{2}(t) + b^{2}x_{2}^{2}(t)\]
+            $a^{2}x_{1}^{2}(t) + 2abx_{1}(t)x_{2}(t) + b^{2}x_{2}^{2}(t)$ não é igual à  $ax_{1}^{2}(t) + bx_{2}^{2}(t)$, logo o sistema não é linear.
             \subsubsection{Sinais (b)}
+            \[x_{1}(t)  \Rightarrow ay_{1}^{'}(t) + 3aty_{1}(t) = ax_{1}t^{2}(t)\]
+            \[x_{2}(t)  \Rightarrow by_{2}^{'}(t) + 3bty_{2}(t) = bx_{2}t^{2}(t)\]        
+			\[x_{3}(t)  \Rightarrow y_{3}^{'}(t) + 3ty_{3}(t) = x_{3}t^{2}(t) \Rightarrow (ax_{1}(t) + bx_{2}(t))t^{2} \]   
+			$(ax_{1}(t) + bx_{2}(t))t^{2}$ é igual à $ax_{1}t^{2}(t) + bx_{2}t^{2}(t)$, logo o sistema é linear
             \subsubsection{Sinais (c)}
+            \[x_{1}(t)  \Rightarrow a3y_{1}(t) + 2 = ax_{1}(t)\]
+            \[x_{2}(t)  \Rightarrow b3y_{2}(t) + 2 = bx_{2}(t)\]   
+			\[x_{3}(t)  \Rightarrow y_{3}(t) + 2 = x_{3}(t) \Rightarrow [a3y_{1}(t) + b3y_{2}(t)] +2 =  [ax_{1}(t) + bx_{2}(t)]\] isso é diferente de $a3y_{1}(t) + b3y_{2}(t) + 4 = [ax_{1}(t) + bx_{2}(t)]$ logo não é linear              
+                        
             \subsubsection{Sinais (d)}
+            \[x_{1}(t)  \Rightarrow ay_{1}^{'}(t) + ay_{1}^{2}(t) = ax_{1}(t)\]
+            \[x_{2}(t)  \Rightarrow by_{2}^{'}(t) + by_{2}^{2}(t) = bx_{2}(t)\]    
+			\[x_{3}(t)  \Rightarrow y_{3}^{'}(t) + y_{3}^{2}(t) = x_{3}(t) \Rightarrow [ay_{1}^{'}(t) + by_{2}^{'}(t)] + [ay_{1}(t) + by_{2}(t)]^{2} =  [ax_{1}(t) + bx_{2}(t)]\], o valor quadrático gerará um termo que fara com que esse sistema não seja linear.                      
             \subsubsection{Sinais (e)}
+            \[ x_{1}(t) \Rightarrow ay_{1}^{'2}(t) + 2ay_{1}(t)  = ax_{1}(t)\]
+            \[ x_{2}(t) \Rightarrow by_{2}^{'2}(t) + 2by_{2}(t)  = bx_{2}(t)\]      
+			\[ x_{3}(t) \Rightarrow y_{3}^{'2}(t) + 2y_{3}(t) = x_{3}(t) \Rightarrow [ay_{1}^{'}(t) + by_{2}^{'}(t)]^{2} + 2[ay_{1}(t) + by_{2}(t)] =  [ax_{1}(t) + bx_{2}(t)]\] o valor quadrático gerará um termo que fara com que esse sistema não seja linear.                                        
             \subsubsection{Sinais (f)}
+            \[ x_{1}(t) \Rightarrow ay_{1}^{'}(t) + asin(t)y_{1}(t)  = ax_{1}^{'}(t) + 2ax_{1}(t)\]
+            \[ x_{2}(t) \Rightarrow by_{2}^{'}(t) + bsin(t)y_{2}(t)  = bx_{2}^{'}(t) + 2bx_{2}(t)\]             
+			\[ x_{3}(t) \Rightarrow y_{3}^{'}(t) + sin(t)y_{3}(t) =  x_{3}^{'}(t) + 2x_{3}(t) \Rightarrow\] 
+			\[[ay_{1}^{'}(t) + by_{2}^{'}(t)] + sin(t)[ay_{1}(t) + by_{2}(t)] = [ax_{1}^{'} + bx_{2}^{'}] + 2[ax_{1}(t) + bx_{2}(t)]\]. O sistema é linear.            
             \subsubsection{Sinais (g)}
+            \[ x_{1}(t) \Rightarrow ay_{1}^{'}(t) + 2ay_{1}(t) = ax_{1}(t)x_{1}^{'}(t)\]
+            \[ x_{2}(t) \Rightarrow by_{2}^{'}(t) + 2by_{2}(t) = bx_{2}(t)x_{2}^{'}(t)\]  
+			\[ x_{3}(t) \Rightarrow y_{3}^{'}(t) + 2y_{3}(t) = x_{3}(t)x_{3}^{'}(t) \Rightarrow [ay_{1}^{'}(t) + by_{2}^{'}(t)] + 2[ay_{1}(t) + 2by_{2}(t)] = \]             
+			\[[ax_{1}(t) + bx_{2}(t)][x_{1}^{'}(t)+x_{2}^{'}(t)]\]. A multiplicação cruzada do ultimo termo gerará um valor tal que o sistema não será linear.
             \subsubsection{Sinais (h)}
+            \[ x_{1}(t) \Rightarrow ay_{1}(t) = \int_{-\infty}^{t}x_{1}(\tau)d\tau\]
+            \[ x_{2}(t) \Rightarrow by_{2}(t) = \int_{-\infty}^{t}x_{2}(\tau)d\tau\]        
+            \[ x_{3}(t) \Rightarrow y_{3}(t) = \int_{-\infty}^{t}x_{3}(\tau)d\tau \Rightarrow [ay_{1}(t) + by_{2}(t) ] =  \int_{-\infty}^{t}[x_{1}(\tau) + x_{2}(\tau)]d\tau\ \]. O Sistema é linear.               
         \subsection{Item k}
             \subsubsection{Sinais (a)}
+            $y_{1}(t) = x_{1}(t-2) $ considerando $x_{2}(t) = x_{1}(t-2-t_{0})$, temos: $y_{2}(t) = x_{2}(t) = x_{1}(t-2-t_{0})$. $y_{1}(t-t_{0}) =  x_{1}(t-2-t_{0})$, logo pode-se concluir que $y_{2}(t) = y_{1}(t-t_{0})$ com isso o sistema é invariante no tempo.
+            
             \subsubsection{Sinais (b)}
+            $y_{1}(t) = x_{1}(-t)$, considerando $x_{2}(t) = x_{1}(-t-t_{0})$, temos: $y_{2}(t) = x_{2}(-t) = x_{1}(-t-t_{0})$, logo $y_{1}(-t-t_{0}) = x_{1}(t+t_{0})$. O sistema é variante com o tempo.
             \subsubsection{Sinais (c)}
+            $y_{1}(t) = x_{1}(at)$, considerando $x_{2}(at) = x_{1}(at-t_{0})$, temos: $y_{2}(t) = x_{2}(at) = x_{1}(at-t_{0})$, logo $y_{1}(at-t_{0}) = x_{1}(a(at+t_{0}))$. O sistema é variante com o tempo.            
             \subsubsection{Sinais (d)}
+            $y_{1}(t) = tx_{1}(t-2) $ considerando $x_{2}(t) = x_{1}(t-2-t_{0})$, temos: $y_{2}(t) = tx_{2}(t) = tx_{1}(t-2-t_{0})$. $y_{1}(t-t_{0}) =  (t-t_{0})x_{1}(t-2-t_{0})$, logo pode-se concluir que é variante no tempo.
             \subsubsection{Sinais (e)}
+            $y_{1}(t) = \int_{-5}^{5}x_{1}(\tau)d\tau $ considerando $x_{2}(\tau) = x_{1}(\tau-t_{0})$, temos: $y_{2}(t) = \int_{-5}^{5}x_{2}(\tau)d\tau = \int_{-5}^{5}x_{1}(\tau-t_{0})d\tau$. $y_{1}(\tau-t_{0}) =  \int_{-5}^{5}x_{1}(\tau - t_{0})d\tau$, logo pode-se concluir que é invariante no tempo.            
             \subsubsection{Sinais (f)}
+            $y_{1}(t) = x_{1}^{'2}(t) $ considerando $x_{2}(t) = x_{1}(t-t_{0})$, temos: $y_{2}(t) = x_{2}^{'2}(t) = x_{1}^{'2}(t-t_{0})$. $y_{1}(t-t_{0}) = x_{1}^{'2}(t-t_{0})$, logo pode-se concluir que é invariante no tempo.            
         \subsection{Item l}
+        \[y_{1} = \frac{x^{2}_{1}(t)}{x_{1}^{'}(t)}\]
+        \[y_{2} = \frac{x^{2}_{2}(t)}{x_{2}^{'}(t)}\]
+        \[y_{3} = \frac{x^{2}_{3}(t)}{x_{3}^{'}(t)} \Rightarrow [y_{1} + y_{2}] = \frac{(x_{1}(t) + x_{2}(t))^{2} }{x_{1}^{'}(t) + x_{2}^{'}(t)}\] não é aditiva.
+        \[ay_{1} = \frac{(ax_{1})^{2}(t)}{ax_{1}^{'}(t)} \Rightarrow y_{1} = a[\frac{(x_{1})^{2}(t)}{x_{1}^{'}(t)}] = ay_{1}\] é homogênea.
+           
         \subsection{Item m}
             \subsubsection{Sinais (a)}
             \subsubsection{Sinais (b)}
