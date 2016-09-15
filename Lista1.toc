@@ -102,12 +102,12 @@
 \contentsline {subsubsection}{\numberline {2.7.4}Sinais (d)}{19}{subsubsection.2.7.4}
 \contentsline {subsubsection}{\numberline {2.7.5}Sinais (e)}{19}{subsubsection.2.7.5}
 \contentsline {subsubsection}{\numberline {2.7.6}Sinais (f)}{20}{subsubsection.2.7.6}
-\contentsline {section}{\numberline {3}Quest\~{a}o 3 - Conhecimentos B\IeC {\'a}sicos}{22}{section.3}
-\contentsline {subsection}{\numberline {3.1}Item a}{22}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Item b}{22}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Item c}{22}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Item d}{22}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Item e}{22}{subsection.3.5}
+\contentsline {section}{\numberline {3}Quest\~{a}o 3 - Conhecimentos B\IeC {\'a}sicos}{20}{section.3}
+\contentsline {subsection}{\numberline {3.1}Item a}{20}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Item b}{20}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Item c}{20}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Item d}{20}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Item e}{21}{subsection.3.5}
 \contentsline {section}{\numberline {4}Quest\~{a}o 4 - Conhecimentos B\IeC {\'a}sicos}{22}{section.4}
 \contentsline {subsection}{\numberline {4.1}Item a}{22}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Item b}{22}{subsection.4.2}
