@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.14)  15 SEP 2016 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.14)  16 SEP 2016 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,41 +1649,56 @@ Package babel Info: Redefining portuges shorthand "|
 [23]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 508.
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--518
+
+ []
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 518.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 519.
+(babel)             in language  on input line 532.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 520.
+(babel)             in language  on input line 546.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 546.
+[24]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 522.
+(babel)             in language  on input line 546.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 523.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 524.
+(babel)             in language  on input line 573.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 525.
+(babel)             in language  on input line 573.
+ [25]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 526.
+(babel)             in language  on input line 573.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 526.
- [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
+(babel)             in language  on input line 587.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 588.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 589.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 590.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 590.
+ [26]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
  (./Lista1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 526.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
 Package rerunfilecheck Info: File `Lista1.out' has not changed.
 (rerunfilecheck)             Checksum: 37AA3B19C85F48B7DD05B78A4AB7D153;9239.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 526.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 590.
  ) 
 Here is how much of TeX's memory you used:
- 26691 strings out of 493013
- 638359 string characters out of 6136993
+ 26735 strings out of 493013
+ 639205 string characters out of 6136993
  853936 words of memory out of 5000000
- 29629 multiletter control sequences out of 15000+600000
+ 29671 multiletter control sequences out of 15000+600000
  8867 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,103p,704b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1698,10 +1713,10 @@ fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lista1.pdf (29 pages, 281291 bytes).
+Output written on Lista1.pdf (31 pages, 300043 bytes).
 PDF statistics:
- 939 PDF objects out of 1000 (max. 8388607)
- 871 compressed objects within 9 object streams
- 172 named destinations out of 1000 (max. 500000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 878 compressed objects within 9 object streams
+ 174 named destinations out of 1000 (max. 500000)
  1149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

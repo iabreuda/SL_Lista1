@@ -514,12 +514,76 @@
         $\int_{-3}^{-2}(\frac{x-1}{2})^{2} dt = \frac{37}{12}$ \\
         $\int_{2}^{3}(\frac{x}{2})^{2} dt = \frac{19}{12}$ \\
         $\int_{3}^{4}(\frac{-x}{2} +3 )^{2} dt = \frac{19}{12}$ \\        
-        Logo a energia é: $\frac{41}{6}$        
+%        Logo a energia é: $\frac{41}{6}$        
     \section{Quest\~{a}o 9 - Operação com Sinais}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-4,0) (-3,0) (-3,1) (-2,1) (-1,1) (0,1)} {};
+                \addplot[domain=0:2,blue]{-x/2 +1};
+                \addplot+[const plot, no marks, thick] coordinates {(3,0) (4,0)} {};
+                \end{axis}
+                \end{tikzpicture}    
         \subsection{Item a}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-3,0) (-2,0) (-2,1) (-1,1) (0,1) (1,1)} {};
+                \addplot[domain=1:3,blue]{-x/2 +1.5};
+                \addplot+[const plot, no marks, thick] coordinates {(4,0) (5,0)} {};
+                \end{axis}
+                \end{tikzpicture}         
         \subsection{Item b}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot[domain=-4:-2,blue]{x/2+2};
+                \addplot+[const plot, no marks, thick, blue] coordinates {(-2,1)(-1,1) (0,1) (1,1) (-1,1) (0,1) (1,1) (1,0)} {};	
+                \end{axis}
+                \end{tikzpicture}         
         \subsection{Item c}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-2,0) (-1.5,0) (-1.5,1) (-1,1) (-0.5,1) (0,1)} {};
+                \addplot[domain=0:1,blue]{-x+1};
+                \addplot+[const plot, no marks, thick] coordinates {(3,0) (4,0)} {};
+                \end{axis}
+                \end{tikzpicture}        
         \subsection{Item d}
+                \begin{tikzpicture}
+                \begin{axis}[%
+                ,xlabel=$t$
+                ,ylabel=$u(t)$
+                ,axis x line = bottom,axis y line = left
+                ,ytick={-1,0,1,2,3}
+                ,ymax=4 % or enlarge y limits=upper
+                ]
+                \addplot+[const plot, no marks, thick] coordinates {(-4,0) (-3,0) (-3,1) (-2,1) (-1,1) (0,1)} {};
+                \addplot[domain=0:2,blue]{-x^2/2 +1};
+                \addplot+[const plot, no marks, thick] coordinates {(3,0) (4,0)} {};
+                \end{axis}
+                \end{tikzpicture}        
     \section{Quest\~{a}o 10 - Operação com Sinais}
         \subsection{Item a}
         \subsection{Item b}
