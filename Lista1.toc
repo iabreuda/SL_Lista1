@@ -124,15 +124,15 @@
 \contentsline {subsection}{\numberline {6.3}Item c}{23}{subsection.6.3}
 \contentsline {section}{\numberline {7}Quest\~{a}o 7 - Classifica\IeC {\c c}\IeC {\~a}o de Sistemas}{23}{section.7}
 \contentsline {subsection}{\numberline {7.1}Item a}{23}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Item b}{23}{subsection.7.2}
-\contentsline {section}{\numberline {8}Quest\~{a}o 8 - Energia e Pot\IeC {\^e}ncia de Sinais}{23}{section.8}
-\contentsline {subsection}{\numberline {8.1}Item a}{23}{subsection.8.1}
+\contentsline {subsection}{\numberline {7.2}Item b}{24}{subsection.7.2}
+\contentsline {section}{\numberline {8}Quest\~{a}o 8 - Energia e Pot\IeC {\^e}ncia de Sinais}{24}{section.8}
+\contentsline {subsection}{\numberline {8.1}Item a}{24}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Item b}{24}{subsection.8.2}
-\contentsline {section}{\numberline {9}Quest\~{a}o 9 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{24}{section.9}
+\contentsline {section}{\numberline {9}Quest\~{a}o 9 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{25}{section.9}
 \contentsline {subsection}{\numberline {9.1}Item a}{25}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Item b}{25}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.2}Item b}{26}{subsection.9.2}
 \contentsline {subsection}{\numberline {9.3}Item c}{26}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Item d}{26}{subsection.9.4}
-\contentsline {section}{\numberline {10}Quest\~{a}o 10 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{26}{section.10}
-\contentsline {subsection}{\numberline {10.1}Item a}{26}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Item b}{27}{subsection.10.2}
+\contentsline {subsection}{\numberline {9.4}Item d}{27}{subsection.9.4}
+\contentsline {section}{\numberline {10}Quest\~{a}o 10 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{27}{section.10}
+\contentsline {subsection}{\numberline {10.1}Item a}{27}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Item b}{28}{subsection.10.2}

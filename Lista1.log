@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.14)  16 SEP 2016 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.14)  16 SEP 2016 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,7 +1095,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
- <img/Figura1.PNG, id=737, 418.56375pt x 180.675pt>
+ <img/Figura1.PNG, id=741, 418.56375pt x 180.675pt>
 File: img/Figura1.PNG Graphic file (type png)
  <use img/Figura1.PNG>
 Package pdftex.def Info: img/Figura1.PNG used on input line 57.
@@ -1126,7 +1126,7 @@ l.69             \newpage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 70.
 
-<img/Figura2.PNG, id=747, 376.40625pt x 208.52907pt>
+<img/Figura2.PNG, id=751, 376.40625pt x 208.52907pt>
 File: img/Figura2.PNG Graphic file (type png)
  <use img/Figura2.PNG>
 Package pdftex.def Info: img/Figura2.PNG used on input line 73.
@@ -1144,7 +1144,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
 
-<img/Figura3.PNG, id=748, 283.81032pt x 295.1025pt>
+<img/Figura3.PNG, id=752, 283.81032pt x 295.1025pt>
 File: img/Figura3.PNG Graphic file (type png)
  <use img/Figura3.PNG>
 Package pdftex.def Info: img/Figura3.PNG used on input line 90.
@@ -1217,7 +1217,7 @@ l.109             \newpage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
 
-<img/Figura4.PNG, id=763, 447.17062pt x 94.10156pt>
+<img/Figura4.PNG, id=767, 447.17062pt x 94.10156pt>
 File: img/Figura4.PNG Graphic file (type png)
  <use img/Figura4.PNG>
 Package pdftex.def Info: img/Figura4.PNG used on input line 113.
@@ -1450,7 +1450,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 297.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 299.
- <img/Figura5.PNG, id=806, 338.26375pt x 192.72pt>
+ <img/Figura5.PNG, id=810, 338.26375pt x 192.72pt>
 File: img/Figura5.PNG Graphic file (type png)
  <use img/Figura5.PNG>
 Package pdftex.def Info: img/Figura5.PNG used on input line 302.
@@ -1564,7 +1564,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 449.
 
-<img/Figura6.PNG, id=839, 170.88844pt x 126.4725pt>
+<img/Figura6.PNG, id=843, 170.88844pt x 126.4725pt>
 File: img/Figura6.PNG Graphic file (type png)
  <use img/Figura6.PNG>
 Package pdftex.def Info: img/Figura6.PNG used on input line 452.
@@ -1572,7 +1572,7 @@ Package pdftex.def Info: img/Figura6.PNG used on input line 452.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 455.
 
-<img/Figura7.PNG, id=840, 165.61874pt x 122.70844pt>
+<img/Figura7.PNG, id=844, 165.61874pt x 122.70844pt>
 File: img/Figura7.PNG Graphic file (type png)
  <use img/Figura7.PNG>
 Package pdftex.def Info: img/Figura7.PNG used on input line 458.
@@ -1586,7 +1586,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 462.
 
-<img/Figura8.PNG, id=847, 176.15813pt x 128.73094pt>
+<img/Figura8.PNG, id=851, 176.15813pt x 128.73094pt>
 File: img/Figura8.PNG Graphic file (type png)
  <use img/Figura8.PNG>
 Package pdftex.def Info: img/Figura8.PNG used on input line 465.
@@ -1637,84 +1637,89 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 497.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 498.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 499.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 500.
+(babel)             in language  on input line 501.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 508.
+(babel)             in language  on input line 502.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 508.
+(babel)             in language  on input line 510.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 510.
 [23]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 508.
+(babel)             in language  on input line 510.
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--518
+Underfull \hbox (badness 10000) in paragraph at lines 511--520
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 518.
+(babel)             in language  on input line 520.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 532.
+(babel)             in language  on input line 534.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 546.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 546.
+(babel)             in language  on input line 534.
 [24]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 546.
+(babel)             in language  on input line 534.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 559.
+(babel)             in language  on input line 548.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 561.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 561.
  [25]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 561.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 586.
+(babel)             in language  on input line 575.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 587.
- <img/Figura9.PNG, id=865, 270.25969pt x 117.43875pt>
+(babel)             in language  on input line 588.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 588.
+ [26]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 588.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 589.
+ <img/Figura9.PNG, id=874, 270.25969pt x 117.43875pt>
 File: img/Figura9.PNG Graphic file (type png)
 
 <use img/Figura9.PNG>
-Package pdftex.def Info: img/Figura9.PNG used on input line 590.
+Package pdftex.def Info: img/Figura9.PNG used on input line 592.
 (pdftex.def)             Requested size: 270.25902pt x 117.43845pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 596.
- <img/Figura10.PNG, id=866, 266.49562pt x 112.92188pt>
-File: img/Figura10.PNG Graphic file (type png)
+(babel)             in language  on input line 598.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 598.
+ [27 <./img/Figura9.PNG>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 599.
 
-<use img/Figura10.PNG>
-Package pdftex.def Info: img/Figura10.PNG used on input line 599.
+<img/Figura10.PNG, id=880, 266.49562pt x 112.92188pt>
+File: img/Figura10.PNG Graphic file (type png)
+ <use img/Figura10.PNG>
+Package pdftex.def Info: img/Figura10.PNG used on input line 602.
 (pdftex.def)             Requested size: 266.49496pt x 112.92159pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 608.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 601.
- [26]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 605.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 605.
- [27 <./img/Figura9.PNG> <./img/Figura10.PNG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 605.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 605.
+(babel)             in language  on input line 608.
 
-(./Lista1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 605.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 605.
+[28 <./img/Figura10.PNG>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+ (./Lista1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
 Package rerunfilecheck Info: File `Lista1.out' has not changed.
 (rerunfilecheck)             Checksum: 37AA3B19C85F48B7DD05B78A4AB7D153;9239.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 605.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
  ) 
 Here is how much of TeX's memory you used:
- 26748 strings out of 493013
- 639414 string characters out of 6136993
+ 26749 strings out of 493013
+ 639421 string characters out of 6136993
  853936 words of memory out of 5000000
  29679 multiletter control sequences out of 15000+600000
  8867 words of font info for 32 fonts, out of 8000000 for 9000
@@ -1731,10 +1736,10 @@ fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lista1.pdf (32 pages, 338849 bytes).
+Output written on Lista1.pdf (33 pages, 318033 bytes).
 PDF statistics:
- 959 PDF objects out of 1000 (max. 8388607)
- 884 compressed objects within 9 object streams
- 177 named destinations out of 1000 (max. 500000)
+ 965 PDF objects out of 1000 (max. 8388607)
+ 889 compressed objects within 9 object streams
+ 178 named destinations out of 1000 (max. 500000)
  1159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
