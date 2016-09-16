@@ -108,24 +108,29 @@
 \contentsline {subsection}{\numberline {3.3}Item c}{20}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Item d}{20}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Item e}{21}{subsection.3.5}
-\contentsline {section}{\numberline {4}Quest\~{a}o 4 - Conhecimentos B\IeC {\'a}sicos}{22}{section.4}
-\contentsline {subsection}{\numberline {4.1}Item a}{22}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Item b}{22}{subsection.4.2}
+\contentsline {section}{\numberline {4}Quest\~{a}o 4 - Conhecimentos B\IeC {\'a}sicos}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Item a}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Item b}{21}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Item c}{22}{subsection.4.3}
 \contentsline {section}{\numberline {5}Quest\~{a}o 5 - Classifica\IeC {\c c}\IeC {\~a}o de Sinais}{22}{section.5}
-\contentsline {section}{\numberline {6}Quest\~{a}o 6 - Classifica\IeC {\c c}\IeC {\~a}o de Sistemas}{22}{section.6}
-\contentsline {subsection}{\numberline {6.1}Item a}{22}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Item b}{22}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Item c}{22}{subsection.6.3}
-\contentsline {section}{\numberline {7}Quest\~{a}o 7 - Classifica\IeC {\c c}\IeC {\~a}o de Sistemas}{22}{section.7}
-\contentsline {subsection}{\numberline {7.1}Item a}{22}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Item b}{22}{subsection.7.2}
-\contentsline {section}{\numberline {8}Quest\~{a}o 8 - Energia e Pot\IeC {\^e}ncia de Sinais}{22}{section.8}
-\contentsline {section}{\numberline {9}Quest\~{a}o 9 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{22}{section.9}
-\contentsline {subsection}{\numberline {9.1}Item a}{22}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Item b}{22}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Item c}{22}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Item d}{22}{subsection.9.4}
-\contentsline {section}{\numberline {10}Quest\~{a}o 10 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{22}{section.10}
-\contentsline {subsection}{\numberline {10.1}Item a}{22}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Item b}{22}{subsection.10.2}
+\contentsline {subsection}{\numberline {5.1}Item a}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Item b}{22}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Item c}{22}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Item d}{22}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Item e}{22}{subsection.5.5}
+\contentsline {section}{\numberline {6}Quest\~{a}o 6 - Classifica\IeC {\c c}\IeC {\~a}o de Sistemas}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Item a}{23}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Item b}{23}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Item c}{23}{subsection.6.3}
+\contentsline {section}{\numberline {7}Quest\~{a}o 7 - Classifica\IeC {\c c}\IeC {\~a}o de Sistemas}{23}{section.7}
+\contentsline {subsection}{\numberline {7.1}Item a}{23}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Item b}{23}{subsection.7.2}
+\contentsline {section}{\numberline {8}Quest\~{a}o 8 - Energia e Pot\IeC {\^e}ncia de Sinais}{23}{section.8}
+\contentsline {section}{\numberline {9}Quest\~{a}o 9 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{23}{section.9}
+\contentsline {subsection}{\numberline {9.1}Item a}{23}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Item b}{23}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Item c}{23}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Item d}{23}{subsection.9.4}
+\contentsline {section}{\numberline {10}Quest\~{a}o 10 - Opera\IeC {\c c}\IeC {\~a}o com Sinais}{23}{section.10}
+\contentsline {subsection}{\numberline {10.1}Item a}{23}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Item b}{23}{subsection.10.2}
